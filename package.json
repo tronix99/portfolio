@@ -5,9 +5,9 @@
   "homepage": "https://tronix99.github.io/portfolio",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
-    "export": "next export"
+    "postbuild": "cp -a out/. ../build"
   },
   "dependencies": {
     "next": "10.0.4",

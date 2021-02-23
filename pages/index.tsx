@@ -23,7 +23,7 @@ export default function Home() {
             <div
               className="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center"
               style={{
-                backgroundImage: "url('../out/assets/images/me2.png')",
+                backgroundImage: "url('../assets/images/me2.png')",
               }}
             ></div>
 
@@ -135,7 +135,7 @@ export default function Home() {
 
         <div className="w-full lg:w-2/6">
           <img
-            src="../out/assets/images/me.png"
+            src="../assets/images/me.png"
             className="rounded-none lg:rounded-lg shadow-2xl hidden lg:block"
           />
         </div>
